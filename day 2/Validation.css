@@ -16,9 +16,8 @@ li {
 
     width: 400px;
 
-    background: teal;
+    background: gray;
 
-    border: 1px soild silver;
 
 }
 
@@ -44,7 +43,7 @@ textarea:focus {
 
 }
 
-input validate {
+input #validate {
 
     font-size: 12pt;
 
