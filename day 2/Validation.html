@@ -8,7 +8,7 @@
 
   <title>JavaScript Email Validation</title>
 
-  <link rel="stylesheet" href="email.css" type="text/css" />
+  <link rel="stylesheet" href="Validation.css" type="text/css" />
 
 </head>
 
@@ -50,8 +50,81 @@
 
 </div>
 
-<script src="email.js"></script>
+<div class="mail">
 
+  <h2>Input phone number with no spaces or dashes</h2>
+
+  <form name="form2" action="#">
+
+    <ul>
+
+      <li><input type="text" name="text2" /></li>
+
+      <li>&nbsp;</li>
+
+      <li class="validate">
+
+        <input
+
+                type="submit"
+
+                name="validate"
+
+                value="Validate"
+
+                onclick="ValidateNumber(document.form2.text2)"
+
+        />
+
+      </li>
+
+      <li>&nbsp;</li>
+
+    </ul>
+
+  </form>
+
+</div>
+
+<div class="mail">
+
+  <h2>Input website</h2>
+
+  <form name="form3" action="#">
+
+    <ul>
+
+      <li><input type="text" name="text3" /></li>
+
+      <li>&nbsp;</li>
+
+      <li class="validate">
+
+        <input
+
+                type="submit"
+
+                name="validate"
+
+                value="Validate"
+
+                onclick="ValidateSite(document.form3.text3)"
+
+        />
+
+      </li>
+
+      <li>&nbsp;</li>
+
+    </ul>
+
+  </form>
+
+</div>
+
+<script src="ValidateEmail.js"></script>
+<script src="ValidateNumber.js"></script>
+<script src="ValidateSite.js"></script>
 </body>
 
 </html>
